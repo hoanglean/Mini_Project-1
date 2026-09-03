@@ -610,7 +610,6 @@
 .building-item.selected .building-letter {
   color: #00d9ff;
 }
-}
 
 .building-name {
   font-size: var(--font-size-xs);
