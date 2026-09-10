@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+    <!-- PWA Meta -->
+    <meta name="theme-color" content="#0284c7" />
+    <meta name="description" content="Ứng dụng kiểm tra cơ sở vật chất khuôn viên VKU - Hoạt động ngoại tuyến" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="VKU Inspector" />
+    
+    <!-- Icons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    
+    <title>VKU Inspector — Kiểm tra cơ sở vật chất</title>
+  </head>
+  <body>
+    <div id="app">
+      <!-- App Shell Loading -->
+      <div id="app-loader" style="display:flex;align-items:center;justify-content:center;height:100vh;background:#0a0f1a;">
+        <div style="text-align:center;color:#e2e8f0;">
+          <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 11l3 3L22 4"/>
+            <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/>
+          </svg>
+          <p style="margin-top:16px;font-family:Inter,sans-serif;font-size:14px;opacity:0.7;">Đang tải...</p>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

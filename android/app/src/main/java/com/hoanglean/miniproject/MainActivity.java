@@ -1,4 +1,4 @@
-package edu.vku.facility.inspector;
+package com.hoanglean.miniproject;
 
 import com.getcapacitor.BridgeActivity;
 

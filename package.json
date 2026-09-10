@@ -24,7 +24,21 @@
     "@capacitor/camera": "^8.2.4",
     "@capacitor/core": "^8.5.1",
     "@capacitor/network": "^8.0.1",
+    "@capgo/capacitor-updater": "^8.51.15",
     "@ionic/pwa-elements": "^3.4.0",
     "idb": "^8.0.3"
-  }
+  },
+  "description": "> 📱 **Ứng dụng kiểm tra cơ sở vật chất khuôn viên trường VKU** — Hoạt động ngoại tuyến 100% (Offline-First), tự động đồng bộ hóa nền khi có mạng, tích hợp Native Camera & Network Monitor, giao diện hiện đại phong cách **Dark Cyan Glassmorphism** và đóng gói thành tệp APK Android gốc với Capacitor.",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoanglean/Mini_Project-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoanglean/Mini_Project-1/issues"
+  },
+  "homepage": "https://github.com/hoanglean/Mini_Project-1#readme"
 }

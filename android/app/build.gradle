@@ -1,10 +1,10 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace = "edu.vku.facility.inspector"
+    namespace = "com.hoanglean.miniproject"
     compileSdk = rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "edu.vku.facility.inspector"
+        applicationId "com.hoanglean.miniproject"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

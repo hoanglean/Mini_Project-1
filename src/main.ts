@@ -12,7 +12,9 @@ import { renderInspectionForm, setupFormListeners, resetFormState } from './page
 import { renderHistory, setupHistoryListeners } from './pages/history';
 import { renderDetail, setupDetailListeners } from './pages/inspection-detail';
 import { registerSW } from 'virtual:pwa-register';
+import { CapacitorUpdater } from '@capgo/capacitor-updater';
 
+CapacitorUpdater.notifyAppReady();
 // Define Ionic PWA custom elements (Camera web fallback UI)
 defineCustomElements(window);
 
